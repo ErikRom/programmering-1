@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Bulgarisk patiens</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="tabIcon.jpg">
+
+</head>
+
+<body>
+
+    <script src="script.js"></script>
+
+    <input type="text" id="lista" onchange="textChange()" placeholder="ex. 1,5,2..." onchange="textChange()" class="button">
+
+    <input type="button" id="submit" onclick="submitButton()" value="Submit" class="button">
+
+    <input type="button" id="random" onclick="randomButton()" value="Randomize"  class="button">
+    
+    <input type="button" id="continue" onclick="continueButton()" value="Continue"  class="button">
+
+    <input type="button" id="skip" onclick="skipButton()" value="Skip" class="button">
+
+    <input type="button" onclick="resetButton()" value="Reset" class="button">
+
+    <br>
+    <p id="text"></p>   
+
+</body>
+</html>
